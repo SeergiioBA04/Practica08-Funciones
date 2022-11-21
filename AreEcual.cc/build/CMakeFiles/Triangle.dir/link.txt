@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Triangle.dir/AreEcual.cc.o  -o Triangle 

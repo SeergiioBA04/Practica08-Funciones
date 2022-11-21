@@ -1,0 +1,3 @@
+/home/usuario/Practica08-Funciones/AreEcual.cc/build/CMakeFiles/rebuild_cache.dir
+/home/usuario/Practica08-Funciones/AreEcual.cc/build/CMakeFiles/edit_cache.dir
+/home/usuario/Practica08-Funciones/AreEcual.cc/build/CMakeFiles/Triangle.dir
