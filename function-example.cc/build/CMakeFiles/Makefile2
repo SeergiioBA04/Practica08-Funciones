@@ -74,12 +74,12 @@ clean: CMakeFiles/Function.dir/clean
 CMakeFiles/Function.dir/all:
 	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/depend
 	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/usuario/Practica08-Funciones/function-example.cc/build/CMakeFiles --progress-num=1,2 "Built target Function"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/usuario/Practica08-Funciones/function-example.cc/build/CMakeFiles --progress-num=1,2,3,4 "Built target Function"
 .PHONY : CMakeFiles/Function.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Function.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Practica08-Funciones/function-example.cc/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Practica08-Funciones/function-example.cc/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Function.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Practica08-Funciones/function-example.cc/build/CMakeFiles 0
 .PHONY : CMakeFiles/Function.dir/rule

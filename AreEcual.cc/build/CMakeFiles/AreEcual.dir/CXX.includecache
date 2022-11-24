@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/Practica08-Funciones/AreEcual.cc/AreEcual-function.cc
+iostream
+-
+cmath
+-
+AreEcual-function.h
+/home/usuario/Practica08-Funciones/AreEcual.cc/AreEcual-function.h
+
+/home/usuario/Practica08-Funciones/AreEcual.cc/AreEcual-function.h
+
+/home/usuario/Practica08-Funciones/AreEcual.cc/AreEcual.cc
+iostream
+-
+cmath
+-
+tools.h
+/home/usuario/Practica08-Funciones/AreEcual.cc/tools.h
+AreEcual-function.h
+/home/usuario/Practica08-Funciones/AreEcual.cc/AreEcual-function.h
+
+/home/usuario/Practica08-Funciones/AreEcual.cc/tools.cc
+iostream
+-
+tools.h
+/home/usuario/Practica08-Funciones/AreEcual.cc/tools.h
+
+/home/usuario/Practica08-Funciones/AreEcual.cc/tools.h
+

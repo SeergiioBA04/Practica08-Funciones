@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Random.dir/random-numbers-function.cc.o"
   "CMakeFiles/Random.dir/random-numbers.cc.o"
+  "CMakeFiles/Random.dir/tools.cc.o"
   "Random"
   "Random.pdb"
 )

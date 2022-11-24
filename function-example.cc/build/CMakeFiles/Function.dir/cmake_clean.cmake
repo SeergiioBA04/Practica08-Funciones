@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Function.dir/function-example-function.cc.o"
   "CMakeFiles/Function.dir/function-example.cc.o"
+  "CMakeFiles/Function.dir/tools.cc.o"
   "Function"
   "Function.pdb"
 )

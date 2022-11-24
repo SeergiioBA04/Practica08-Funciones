@@ -6,9 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/usuario/Practica08-Funciones/random-numbers.cc/random-numbers.cc
+/home/usuario/Practica08-Funciones/random-numbers.cc/random-numbers-function.cc
 iostream
 -
 ctime
 -
+cstdlib
+-
+random-numbers-function.h
+/home/usuario/Practica08-Funciones/random-numbers.cc/random-numbers-function.h
+
+/home/usuario/Practica08-Funciones/random-numbers.cc/random-numbers-function.h
+
+/home/usuario/Practica08-Funciones/random-numbers.cc/random-numbers.cc
+iostream
+-
+random-numbers-function.h
+/home/usuario/Practica08-Funciones/random-numbers.cc/random-numbers-function.h
+tools.h
+/home/usuario/Practica08-Funciones/random-numbers.cc/tools.h
+
+/home/usuario/Practica08-Funciones/random-numbers.cc/tools.cc
+iostream
+-
+tools.h
+/home/usuario/Practica08-Funciones/random-numbers.cc/tools.h
+
+/home/usuario/Practica08-Funciones/random-numbers.cc/tools.h
 

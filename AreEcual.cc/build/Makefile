@@ -111,17 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Triangle
+# Target rules for targets named AreEcual
 
 # Build rule for target.
-Triangle: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Triangle
-.PHONY : Triangle
+AreEcual: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AreEcual
+.PHONY : AreEcual
 
 # fast build rule for target.
-Triangle/fast:
-	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/build
-.PHONY : Triangle/fast
+AreEcual/fast:
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/build
+.PHONY : AreEcual/fast
+
+AreEcual-function.o: AreEcual-function.cc.o
+
+.PHONY : AreEcual-function.o
+
+# target to build an object file
+AreEcual-function.cc.o:
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/AreEcual-function.cc.o
+.PHONY : AreEcual-function.cc.o
+
+AreEcual-function.i: AreEcual-function.cc.i
+
+.PHONY : AreEcual-function.i
+
+# target to preprocess a source file
+AreEcual-function.cc.i:
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/AreEcual-function.cc.i
+.PHONY : AreEcual-function.cc.i
+
+AreEcual-function.s: AreEcual-function.cc.s
+
+.PHONY : AreEcual-function.s
+
+# target to generate assembly for a file
+AreEcual-function.cc.s:
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/AreEcual-function.cc.s
+.PHONY : AreEcual-function.cc.s
 
 AreEcual.o: AreEcual.cc.o
 
@@ -129,7 +156,7 @@ AreEcual.o: AreEcual.cc.o
 
 # target to build an object file
 AreEcual.cc.o:
-	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/AreEcual.cc.o
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/AreEcual.cc.o
 .PHONY : AreEcual.cc.o
 
 AreEcual.i: AreEcual.cc.i
@@ -138,7 +165,7 @@ AreEcual.i: AreEcual.cc.i
 
 # target to preprocess a source file
 AreEcual.cc.i:
-	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/AreEcual.cc.i
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/AreEcual.cc.i
 .PHONY : AreEcual.cc.i
 
 AreEcual.s: AreEcual.cc.s
@@ -147,8 +174,35 @@ AreEcual.s: AreEcual.cc.s
 
 # target to generate assembly for a file
 AreEcual.cc.s:
-	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/AreEcual.cc.s
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/AreEcual.cc.s
 .PHONY : AreEcual.cc.s
+
+tools.o: tools.cc.o
+
+.PHONY : tools.o
+
+# target to build an object file
+tools.cc.o:
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/tools.cc.o
+.PHONY : tools.cc.o
+
+tools.i: tools.cc.i
+
+.PHONY : tools.i
+
+# target to preprocess a source file
+tools.cc.i:
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/tools.cc.i
+.PHONY : tools.cc.i
+
+tools.s: tools.cc.s
+
+.PHONY : tools.s
+
+# target to generate assembly for a file
+tools.cc.s:
+	$(MAKE) -f CMakeFiles/AreEcual.dir/build.make CMakeFiles/AreEcual.dir/tools.cc.s
+.PHONY : tools.cc.s
 
 # Help Target
 help:
@@ -158,10 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Triangle"
+	@echo "... AreEcual"
+	@echo "... AreEcual-function.o"
+	@echo "... AreEcual-function.i"
+	@echo "... AreEcual-function.s"
 	@echo "... AreEcual.o"
 	@echo "... AreEcual.i"
 	@echo "... AreEcual.s"
+	@echo "... tools.o"
+	@echo "... tools.i"
+	@echo "... tools.s"
 .PHONY : help
 
 

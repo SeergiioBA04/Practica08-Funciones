@@ -17,7 +17,7 @@
  * @description {Describe que hace el programa}
  */
 void PrintProgramPurpose() {
-  std::cout << "Genera un numero aleatorio entre dos valores n,m." << std::endl;
+  std::cout << "Identifica si dos numeros son iguales o diferentes" << std::endl;
 }
 
 /*

@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/usuario/Practica08-Funciones/random-numbers.cc/random-numbers-function.cc" "/home/usuario/Practica08-Funciones/random-numbers.cc/build/CMakeFiles/Random.dir/random-numbers-function.cc.o"
   "/home/usuario/Practica08-Funciones/random-numbers.cc/random-numbers.cc" "/home/usuario/Practica08-Funciones/random-numbers.cc/build/CMakeFiles/Random.dir/random-numbers.cc.o"
+  "/home/usuario/Practica08-Funciones/random-numbers.cc/tools.cc" "/home/usuario/Practica08-Funciones/random-numbers.cc/build/CMakeFiles/Random.dir/tools.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

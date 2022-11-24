@@ -22,8 +22,8 @@
 bool AreEqual(const double number1, const double number2) {
   if (abs(number1 - number2) < 1e-7) {
     return true;
-   }
-   else {
-     return false;
-   }
+  }
+  else {
+    return false;
+  }
 }

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/Practica08-Funciones/change-case/change-case-function.cc
+iostream
+-
+change-case-function.h
+/home/usuario/Practica08-Funciones/change-case/change-case-function.h
+
+/home/usuario/Practica08-Funciones/change-case/change-case-function.h
+
+/home/usuario/Practica08-Funciones/change-case/change-case.cc
+iostream
+-
+change-case-function.h
+/home/usuario/Practica08-Funciones/change-case/change-case-function.h
+tools.h
+/home/usuario/Practica08-Funciones/change-case/tools.h
+
+/home/usuario/Practica08-Funciones/change-case/tools.cc
+iostream
+-
+tools.h
+/home/usuario/Practica08-Funciones/change-case/tools.h
+
+/home/usuario/Practica08-Funciones/change-case/tools.h
+

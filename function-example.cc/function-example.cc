@@ -19,6 +19,7 @@
 /**
 * @param {number1} {number2} {number3}
 * @param {total}
+* @descripion {Funcion main}
 */
 int main(int argc, char* argv[]) {
   PrintProgramPurpose(); 

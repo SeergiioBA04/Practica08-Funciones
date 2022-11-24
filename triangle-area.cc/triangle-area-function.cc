@@ -29,8 +29,7 @@ double CalculoDeArea(double lado1, double lado2, double lado3) {
     double semi_perimetro{};
     semi_perimetro = (lado1 + lado2 + lado3) / 2;
     double total{};
-    total =  sqrt(semi_perimetro * ((semi_perimetro - lado1) * (semi_perimetro -
-    lado2) * (semi_perimetro - lado3)));
+    total =  sqrt(semi_perimetro * ((semi_perimetro - lado1) * (semi_perimetro - lado2) * (semi_perimetro - lado3)));
     return total;
   }
 }

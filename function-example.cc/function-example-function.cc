@@ -19,6 +19,7 @@
 * @param {number1} {number2} {number3}
 * @param {total}
 * @return {total}
+* @descripion {Calcula la función}
 */
 double CalculoDeFuncion(int number1, int number2, int number3) {
   double total{};

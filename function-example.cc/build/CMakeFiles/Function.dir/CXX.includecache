@@ -6,9 +6,31 @@
 
 #IncludeRegexTransform: 
 
+/home/usuario/Practica08-Funciones/function-example.cc/function-example-function.cc
+iostream
+-
+math.h
+-
+function-example-function.h
+/home/usuario/Practica08-Funciones/function-example.cc/function-example-function.h
+
+/home/usuario/Practica08-Funciones/function-example.cc/function-example-function.h
+
 /home/usuario/Practica08-Funciones/function-example.cc/function-example.cc
 iostream
 -
 math.h
 -
+tools.h
+/home/usuario/Practica08-Funciones/function-example.cc/tools.h
+function-example-function.h
+/home/usuario/Practica08-Funciones/function-example.cc/function-example-function.h
+
+/home/usuario/Practica08-Funciones/function-example.cc/tools.cc
+iostream
+-
+tools.h
+/home/usuario/Practica08-Funciones/function-example.cc/tools.h
+
+/home/usuario/Practica08-Funciones/function-example.cc/tools.h
 

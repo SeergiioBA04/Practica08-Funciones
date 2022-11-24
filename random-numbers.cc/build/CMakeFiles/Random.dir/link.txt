@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/Random.dir/random-numbers.cc.o  -o Random 
+/usr/bin/c++     CMakeFiles/Random.dir/random-numbers.cc.o CMakeFiles/Random.dir/random-numbers-function.cc.o CMakeFiles/Random.dir/tools.cc.o  -o Random 

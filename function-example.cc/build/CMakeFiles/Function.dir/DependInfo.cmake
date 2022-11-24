@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/usuario/Practica08-Funciones/function-example.cc/function-example-function.cc" "/home/usuario/Practica08-Funciones/function-example.cc/build/CMakeFiles/Function.dir/function-example-function.cc.o"
   "/home/usuario/Practica08-Funciones/function-example.cc/function-example.cc" "/home/usuario/Practica08-Funciones/function-example.cc/build/CMakeFiles/Function.dir/function-example.cc.o"
+  "/home/usuario/Practica08-Funciones/function-example.cc/tools.cc" "/home/usuario/Practica08-Funciones/function-example.cc/build/CMakeFiles/Function.dir/tools.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

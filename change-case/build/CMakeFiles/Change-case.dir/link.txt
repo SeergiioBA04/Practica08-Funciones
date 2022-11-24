@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Change-case.dir/change-case-function.cc.o CMakeFiles/Change-case.dir/change-case.cc.o CMakeFiles/Change-case.dir/tools.cc.o  -o Change-case 

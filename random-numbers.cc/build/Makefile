@@ -123,6 +123,33 @@ Random/fast:
 	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/build
 .PHONY : Random/fast
 
+random-numbers-function.o: random-numbers-function.cc.o
+
+.PHONY : random-numbers-function.o
+
+# target to build an object file
+random-numbers-function.cc.o:
+	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/random-numbers-function.cc.o
+.PHONY : random-numbers-function.cc.o
+
+random-numbers-function.i: random-numbers-function.cc.i
+
+.PHONY : random-numbers-function.i
+
+# target to preprocess a source file
+random-numbers-function.cc.i:
+	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/random-numbers-function.cc.i
+.PHONY : random-numbers-function.cc.i
+
+random-numbers-function.s: random-numbers-function.cc.s
+
+.PHONY : random-numbers-function.s
+
+# target to generate assembly for a file
+random-numbers-function.cc.s:
+	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/random-numbers-function.cc.s
+.PHONY : random-numbers-function.cc.s
+
 random-numbers.o: random-numbers.cc.o
 
 .PHONY : random-numbers.o
@@ -150,6 +177,33 @@ random-numbers.cc.s:
 	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/random-numbers.cc.s
 .PHONY : random-numbers.cc.s
 
+tools.o: tools.cc.o
+
+.PHONY : tools.o
+
+# target to build an object file
+tools.cc.o:
+	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/tools.cc.o
+.PHONY : tools.cc.o
+
+tools.i: tools.cc.i
+
+.PHONY : tools.i
+
+# target to preprocess a source file
+tools.cc.i:
+	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/tools.cc.i
+.PHONY : tools.cc.i
+
+tools.s: tools.cc.s
+
+.PHONY : tools.s
+
+# target to generate assembly for a file
+tools.cc.s:
+	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/tools.cc.s
+.PHONY : tools.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Random"
+	@echo "... random-numbers-function.o"
+	@echo "... random-numbers-function.i"
+	@echo "... random-numbers-function.s"
 	@echo "... random-numbers.o"
 	@echo "... random-numbers.i"
 	@echo "... random-numbers.s"
+	@echo "... tools.o"
+	@echo "... tools.i"
+	@echo "... tools.s"
 .PHONY : help
 
 

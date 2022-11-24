@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/usuario/Practica08-Funciones/triangle-area.cc/triangle-area.cc
+/home/usuario/Practica08-Funciones/triangle-area.cc/tools.cc
 iostream
 -
-math.h
--
+tools.h
+/home/usuario/Practica08-Funciones/triangle-area.cc/tools.h
+
+/home/usuario/Practica08-Funciones/triangle-area.cc/tools.h
 

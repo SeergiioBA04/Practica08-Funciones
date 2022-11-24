@@ -17,7 +17,7 @@
  * @description {Indica la funcion del programa}
  */
 void PrintProgramPurpose() {
-  std::cout << "Genera un numero aleatorio entre dos valores n,m." << std::endl;
+  std::cout << "Calcula el area de un triangulo por la formula de Herón" << std::endl;
 }
 
 /*

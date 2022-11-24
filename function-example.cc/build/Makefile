@@ -123,6 +123,33 @@ Function/fast:
 	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/build
 .PHONY : Function/fast
 
+function-example-function.o: function-example-function.cc.o
+
+.PHONY : function-example-function.o
+
+# target to build an object file
+function-example-function.cc.o:
+	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/function-example-function.cc.o
+.PHONY : function-example-function.cc.o
+
+function-example-function.i: function-example-function.cc.i
+
+.PHONY : function-example-function.i
+
+# target to preprocess a source file
+function-example-function.cc.i:
+	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/function-example-function.cc.i
+.PHONY : function-example-function.cc.i
+
+function-example-function.s: function-example-function.cc.s
+
+.PHONY : function-example-function.s
+
+# target to generate assembly for a file
+function-example-function.cc.s:
+	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/function-example-function.cc.s
+.PHONY : function-example-function.cc.s
+
 function-example.o: function-example.cc.o
 
 .PHONY : function-example.o
@@ -150,6 +177,33 @@ function-example.cc.s:
 	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/function-example.cc.s
 .PHONY : function-example.cc.s
 
+tools.o: tools.cc.o
+
+.PHONY : tools.o
+
+# target to build an object file
+tools.cc.o:
+	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/tools.cc.o
+.PHONY : tools.cc.o
+
+tools.i: tools.cc.i
+
+.PHONY : tools.i
+
+# target to preprocess a source file
+tools.cc.i:
+	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/tools.cc.i
+.PHONY : tools.cc.i
+
+tools.s: tools.cc.s
+
+.PHONY : tools.s
+
+# target to generate assembly for a file
+tools.cc.s:
+	$(MAKE) -f CMakeFiles/Function.dir/build.make CMakeFiles/Function.dir/tools.cc.s
+.PHONY : tools.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Function"
+	@echo "... function-example-function.o"
+	@echo "... function-example-function.i"
+	@echo "... function-example-function.s"
 	@echo "... function-example.o"
 	@echo "... function-example.i"
 	@echo "... function-example.s"
+	@echo "... tools.o"
+	@echo "... tools.i"
+	@echo "... tools.s"
 .PHONY : help
 
 

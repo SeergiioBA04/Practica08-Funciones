@@ -123,6 +123,60 @@ Triangle/fast:
 	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/build
 .PHONY : Triangle/fast
 
+tools.o: tools.cc.o
+
+.PHONY : tools.o
+
+# target to build an object file
+tools.cc.o:
+	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/tools.cc.o
+.PHONY : tools.cc.o
+
+tools.i: tools.cc.i
+
+.PHONY : tools.i
+
+# target to preprocess a source file
+tools.cc.i:
+	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/tools.cc.i
+.PHONY : tools.cc.i
+
+tools.s: tools.cc.s
+
+.PHONY : tools.s
+
+# target to generate assembly for a file
+tools.cc.s:
+	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/tools.cc.s
+.PHONY : tools.cc.s
+
+triangle-area-function.o: triangle-area-function.cc.o
+
+.PHONY : triangle-area-function.o
+
+# target to build an object file
+triangle-area-function.cc.o:
+	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/triangle-area-function.cc.o
+.PHONY : triangle-area-function.cc.o
+
+triangle-area-function.i: triangle-area-function.cc.i
+
+.PHONY : triangle-area-function.i
+
+# target to preprocess a source file
+triangle-area-function.cc.i:
+	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/triangle-area-function.cc.i
+.PHONY : triangle-area-function.cc.i
+
+triangle-area-function.s: triangle-area-function.cc.s
+
+.PHONY : triangle-area-function.s
+
+# target to generate assembly for a file
+triangle-area-function.cc.s:
+	$(MAKE) -f CMakeFiles/Triangle.dir/build.make CMakeFiles/Triangle.dir/triangle-area-function.cc.s
+.PHONY : triangle-area-function.cc.s
+
 triangle-area.o: triangle-area.cc.o
 
 .PHONY : triangle-area.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Triangle"
+	@echo "... tools.o"
+	@echo "... tools.i"
+	@echo "... tools.s"
+	@echo "... triangle-area-function.o"
+	@echo "... triangle-area-function.i"
+	@echo "... triangle-area-function.s"
 	@echo "... triangle-area.o"
 	@echo "... triangle-area.i"
 	@echo "... triangle-area.s"

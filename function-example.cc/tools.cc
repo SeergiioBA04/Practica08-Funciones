@@ -18,7 +18,7 @@
  * @description {Descripcion del programa}
  */
 void PrintProgramPurpose() {
-  std::cout << "Genera un numero aleatorio entre dos valores n,m." << std::endl;
+  std::cout << "Calcula una función donde encontramos 3 incognitas, x,y,t" << std::endl;
 }
 
 /*

@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/usuario/Practica08-Funciones/triangle-area.cc/tools.cc" "/home/usuario/Practica08-Funciones/triangle-area.cc/build/CMakeFiles/Triangle.dir/tools.cc.o"
+  "/home/usuario/Practica08-Funciones/triangle-area.cc/triangle-area-function.cc" "/home/usuario/Practica08-Funciones/triangle-area.cc/build/CMakeFiles/Triangle.dir/triangle-area-function.cc.o"
   "/home/usuario/Practica08-Funciones/triangle-area.cc/triangle-area.cc" "/home/usuario/Practica08-Funciones/triangle-area.cc/build/CMakeFiles/Triangle.dir/triangle-area.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

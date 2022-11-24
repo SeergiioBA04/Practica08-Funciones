@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/AreEcual.dir/AreEcual.cc.o CMakeFiles/AreEcual.dir/AreEcual-function.cc.o CMakeFiles/AreEcual.dir/tools.cc.o  -o AreEcual 

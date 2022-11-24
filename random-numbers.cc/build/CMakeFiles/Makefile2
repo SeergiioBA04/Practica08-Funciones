@@ -74,12 +74,12 @@ clean: CMakeFiles/Random.dir/clean
 CMakeFiles/Random.dir/all:
 	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/depend
 	$(MAKE) -f CMakeFiles/Random.dir/build.make CMakeFiles/Random.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/usuario/Practica08-Funciones/random-numbers.cc/build/CMakeFiles --progress-num=1,2 "Built target Random"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/usuario/Practica08-Funciones/random-numbers.cc/build/CMakeFiles --progress-num=1,2,3,4 "Built target Random"
 .PHONY : CMakeFiles/Random.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Random.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Practica08-Funciones/random-numbers.cc/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Practica08-Funciones/random-numbers.cc/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Random.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/usuario/Practica08-Funciones/random-numbers.cc/build/CMakeFiles 0
 .PHONY : CMakeFiles/Random.dir/rule
